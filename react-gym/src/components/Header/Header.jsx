@@ -27,28 +27,28 @@ const Header = () => {
         </div>
       ) : (
         <ul className="header-menu">
-          <li onClick={() => setMenuOpened(false)}>
-            <Link to="header" activeClass="active" spy={true} smooth={true}>
+          <li >
+            <Link onClick={() => setMenuOpened(false)} to="header" activeClass="active" spy={true} smooth={true}>
               Home
             </Link>
           </li>
-          <li onClick={() => setMenuOpened(false)}>
-            <Link to="programs" spy={true} smooth={true}>
+          <li >
+            <Link onClick={() => setMenuOpened(false)} to="programs" spy={true} smooth={true}>
               Programs
             </Link>
           </li>
-          <li onClick={() => setMenuOpened(false)}>
-            <Link to="reasons" spy={true} smooth={true}>
+          <li >
+            <Link onClick={() => setMenuOpened(false)} to="reasons" spy={true} smooth={true}>
               Why us
             </Link>
           </li>
-          <li onClick={() => setMenuOpened(false)}>
-            <Link to="plans" spy={true} smooth={true}>
+          <li >
+            <Link onClick={() => setMenuOpened(false)} to="plans" spy={true} smooth={true}>
               Plans
             </Link>
           </li>
-          <li onClick={() => setMenuOpened(false)}>
-            <Link to="testimonials" spy={true} smooth={true}>
+          <li >
+            <Link onClick={() => setMenuOpened(false)} to="testimonials" spy={true} smooth={true}>
               Testimonials
             </Link>
           </li>

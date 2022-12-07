@@ -116,11 +116,12 @@
   gap: 1rem;
   background-color: var(--darkGrey);
   padding: 1rem;
-  align-items: start;
+  align-items: flex-start;
   border-radius: 5px;
   position: absolute;
   right: 4rem;
   top: 7rem;
+  width: fit-content;
 }
 
 .heart-rate > img {
